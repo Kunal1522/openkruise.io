@@ -198,7 +198,7 @@ The ideal state for elastic scaling of conversational games is that during peak 
 
 ### Room service is automatically reduced
 
-In the state management section, we also mentioned that the GameServer whose opsState is WaitToBeDeleted will be automatically recycled by OKG. In this way, as long as the business decides that it will no longer provide services, it can set WaitToBeDeleted through custom service quality. For specific configuration of the scaling strategy, please refer to [https://openkruise.io/zh/kruisegame/user-manuals/gameservers-scale#Usage Example](https://openkruise.io/zh/kruisegame/user-manuals /gameservers-scale#%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B)
+In the state management section, we also mentioned that the GameServer whose opsState is WaitToBeDeleted will be automatically recycled by OKG. In this way, as long as the business decides that it will no longer provide services, it can set WaitToBeDeleted through custom service quality. For specific configuration of the scaling strategy, please refer to [https://openkruise.io/zh/kruisegame/user-manuals/gameservers-scale#Usage Example](https://openkruise.io/zh/kruisegame/user-manuals/gameservers-scale#%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B)
 
 ### Room service automatically added
 
